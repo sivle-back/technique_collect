@@ -28,6 +28,21 @@ pwd
 reuslt: [current path]
 ```
 
+## cat command
+```bash
+cat
+```
+
+display content with number all output lines
+```bash
+cat -n filename.txt
+```
+
+crate file with cat command
+```bash
+cat > newfile.txt
+```
+
 ## touch command
 
 ```bash
@@ -70,6 +85,31 @@ create parent project directory and subdirectories src,bin,logs
 mkdir -p project/{src,bin,logs}
 ```
 
+## rm command
 
+```bash
+rm
+```
+
+remove multiple files
+```bash
+rm file1.txt file2.txt
+```
+
+remove directory
+```bash
+rm dir1
+```
+
+remove directory recursive and force
+```bash
+rm -rf dir1
+```
+```
+-r remove directories recursily
+```
+```
+-f ignore nonexistent files and arguments, never prompt
+```
 
 
