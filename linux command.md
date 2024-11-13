@@ -24,3 +24,10 @@ pwd
 ```
 reuslt: [current path]
 ```
+
+## touch command
+
+```bash
+touch <file name>
+```
+## mkdir command
